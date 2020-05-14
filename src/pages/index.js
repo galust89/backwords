@@ -6,17 +6,19 @@ import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import Services from "../components/Home/Services"
 import Header from "../components/Home/Header"
+import Advantages from "../components/Home/Advantages"
 
 export default () => (
   <Layout>
     <Header />
     <SimpleHero>
-      <Banner title="continue exploring" info="some text here">
+      <Banner info="Մատչելի և որակյալ քիմմաքրման ծառայություններ">
         <Link to="/tours" className="btn-white">
-          explore tours
+          Մեր Ծառայությունները
         </Link>
       </Banner>
     </SimpleHero>
+    <Advantages />
     <About />
     <Services />
   </Layout>

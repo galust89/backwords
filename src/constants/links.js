@@ -1,18 +1,22 @@
 export default [
   {
     path: "/",
-    text: "home",
+    text: "Գլխավոր",
   },
   {
-    path: "/tours",
-    text: "tours",
+    path: "/service",
+    text: "Ծառայություններ",
   },
   {
-    path: "/blog",
-    text: "blog",
+    path: "/about",
+    text: "Մեր մասին",
+  },
+  {
+    path: "/photos",
+    text: "Տեսարան",
   },
   {
     path: "/contact",
-    text: "contact",
+    text: "Կապ մեզ հետ",
   },
 ]

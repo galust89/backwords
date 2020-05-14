@@ -1,0 +1,25 @@
+.advantages {
+    display: grid;
+    grid-template-rows: 10rem;
+    grid-auto-rows: 10rem;
+    grid-template-columns:repeat(auto-fit, minmax(12rem, 1fr));
+    row-gap: 1rem;
+    column-gap: 1rem;
+    padding: 1rem 1rem;
+}
+.advantage {
+    display: flex;
+    flex-direction: column;
+    background: var(--mainBlack);
+    align-items: center;
+    padding: 1rem;
+}
+.adImage {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+}
+.textInfo {
+    color: white;
+    text-align: center;
+}
